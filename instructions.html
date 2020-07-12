@@ -1,0 +1,66 @@
+<html>
+<head>
+    <title>Battleship Instructions</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+<div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Battleship Instructions</a>
+    </nav>
+</div>
+<div class="jumbotron">
+    <h1 class="display-4">Welcome to Battleship!</h1>
+    <p class="lead">Welcome to Battleship. The game of guessing and out smarting your opponent.
+
+        Battleship is a war-themed board game (or in this case, a game in the terminal) where you try to guess the opponents ship location and sink their ships.
+
+        A paper and pencil version of this game dates back to World War 1, but most people are more familiar with the plastic board game first created in 1967.
+
+        In this version of the game it is only single player, as you will be playing against a bad guessing algorithm.
+    </p>
+    <hr class="my-4">
+</div>
+<h3>Instructions</h3>
+<ol class="list-group">
+    <li class="list-group-item"><h5>Step 1: Enter Your Name when prompted, so we can record your score.
+    </h5></li>
+    <li class="list-group-item"><h5>Step 2: Place your boats in order of size. From largest too smallest.</h5>
+        <ul>
+            <li>The ships vary in size from 5 length to 2 length.</li>
+            <li>Input the X coordinate. Between 1 and 10. Press Enter.</li>
+            <li>Input the Y coordinate. Between 1 and 10. Press Enter.</li>
+            <li>Select a direction in which that ship should be placed. The selected coordinate will be the point from which it extends.
+            </li>
+            <li>Do this until all 5 ships have been placed.
+            </li>
+
+        </ul>
+    </li>
+    <li class="list-group-item"><h5>Step 3: Guess the location of the computer's ships by inputting coordinates.
+    </h5>
+    <ul>
+        <li>Input the X coordinate. Between 1 and 10. Press Enter.
+        </li>
+        <li>Input the Y coordinate. Between 1 and 10. Press Enter.
+        </li>
+        <li>You will be show an explosion emoji if you guess a location correctly.
+        </li>
+        <li>When you sink a ship the explosions will turn into a SOS emoji.
+        </li>
+        <li>You can see where your ships are and where the computer has guessed.
+        </li>
+    </ul></li>
+    <li class="list-group-item"><h5>Step 4: Do this until either you, or the computer have sunk every single one of the opponents ships.</h5>
+    <ol>
+        <li>Sink a ship by guessing every coordinate that a ship takes up with it's length.
+        </li>
+        <li>When the game is over a leaderboard will print out showing how many turns the game lasted.</li>
+    </ol>
+    </li>
+</ol>
+<nav class="navbar">
+    <h3 style="margin-left: 450px;" class="navbar-brand">Like The Game? Visit <a href="www.adam-daniel-rice.com">My Website</a> To See Other Projects I Have Done!</h3>
+</nav>
+</body>
+</html>
